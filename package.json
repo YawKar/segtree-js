@@ -1,12 +1,12 @@
 {
-  "name": "small-tests",
+  "name": "segtree-js",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node script.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node manualStoopidTests.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "yawkar",
+  "license": "WTFPL"
 }
