@@ -1,0 +1,17 @@
+name: Run ESLint on Pull Requests
+
+on:
+  - pull_request
+
+jobs:
+  build:
+    name: Run ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.3.0
+      - uses: actions/setup-node@v3.6.0
+        with:
+          node-version: 18.14.2
+          cache: npm
+      - run: npm i
+      - run: npm test
