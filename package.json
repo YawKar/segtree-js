@@ -5,8 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node manualStoopidTests.js"
+    "test": "mocha",
+    "lint": "eslint ./"
   },
   "author": "yawkar",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "mocha": "^10.2.0"
+  }
 }
