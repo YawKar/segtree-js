@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 const rangesIntersect = (l1, r1, l2, r2) => {
   const maxLeft = Math.max(l1, l2);
   const minRight = Math.min(r1, r2);
